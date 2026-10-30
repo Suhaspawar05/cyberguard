@@ -8,7 +8,7 @@ from sklearn.metrics import accuracy_score, classification_report
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 
-from src.traffic_simulator import FEATURE_COLUMNS, generate_training_dataset
+from traffic_simulator import FEATURE_COLUMNS, generate_training_dataset
 
 
 class CyberGuardEngine:
