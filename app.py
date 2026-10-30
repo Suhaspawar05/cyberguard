@@ -4,8 +4,8 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 
-from src.cyberguard_engine import CyberGuardEngine
-from src.traffic_simulator import generate_live_flow
+from cyberguard_engine import CyberGuardEngine
+from traffic_simulator import generate_live_flow
 
 
 st.set_page_config(
